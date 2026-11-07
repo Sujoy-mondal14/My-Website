@@ -63,7 +63,7 @@ function HomePage() {
             className="animate-item opacity-0 translate-y-8 transition-all duration-700 delay-300 flex items-center gap-5 mt-10 md:mt-14 group w-fit cursor-pointer"
           >
             <span className="font-sans text-xs md:text-sm font-bold tracking-[3px] uppercase text-white whitespace-nowrap group-hover:text-sky-400 transition-colors">
-              GET STARTED
+              GET STARTED here
             </span>
             <span className="w-16 md:w-20 h-[1.5px] bg-white shrink-0 group-hover:w-24 group-hover:bg-sky-400 transition-all duration-300"></span>
             <span className="font-sans text-xs md:text-sm font-medium tracking-[2px] uppercase text-white/75 leading-relaxed whitespace-nowrap group-hover:text-white transition-colors">

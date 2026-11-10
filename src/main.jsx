@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="contact" element={<ContactPage />} />
           <Route path="coming-soon" element={<ComingSoonPage />} />
         </Route>
-        <Route path='/agency-ai/' element={<AgencyAiApp/>} />
+        <Route path='/agency-ai' element={<AgencyAiApp/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

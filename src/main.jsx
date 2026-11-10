@@ -8,18 +8,20 @@ import ContactPage from './pages/ContactPage.jsx'
 import HomePage from './pages/HomePage.jsx'
 import ProjectsPage from './pages/ProjectsPage.jsx'
 import TechStackPage from './pages/TechStackPage.jsx'
+import AgencyAiApp from './../src/pages/AgencyAi/src/AgencyAiApp.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route element={<App />}>
+        <Route path ='/' element={<App />}>
           <Route index element={<HomePage />} />
           <Route path="tech-stack" element={<TechStackPage />} />
           <Route path="projects" element={<ProjectsPage />} />
           <Route path="contact" element={<ContactPage />} />
           <Route path="coming-soon" element={<ComingSoonPage />} />
         </Route>
+        <Route path='/agency-ai/' element={<AgencyAiApp/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,

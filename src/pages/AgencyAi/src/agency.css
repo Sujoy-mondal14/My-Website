@@ -1,0 +1,10 @@
+@layer base {
+  .agency-ai-root {
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+  }
+
+  .agency-ai-root * {
+    font-family: "Manrope", sans-serif;
+  }
+}
